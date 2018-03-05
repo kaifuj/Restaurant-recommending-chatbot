@@ -1,0 +1,24 @@
+{
+  "features": [
+    "intent_greet",
+    "intent_search",
+    "intent_provide_location",
+    "intent_provide_flavor",
+    "intent_affirm",
+    "intent_deny",
+    "entity_flavor",
+    "entity_location",
+    "slot_flavor_0",
+    "slot_location_0",
+    "slot_results_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_utter_greet",
+    "prev_utter_ask_location",
+    "prev_utter_ask_flavor",
+    "prev_action_search_restaurants",
+    "prev_utter_goodornot",
+    "prev_action_more_results",
+    "prev_utter_bye"
+  ]
+}

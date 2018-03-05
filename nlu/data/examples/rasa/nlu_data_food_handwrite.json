@@ -1,0 +1,1078 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "你好",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "嘿",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "嗨",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "哈喽",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "有什么推荐的餐馆",
+        "intent": "search",
+        "entities": []
+      },
+      {
+        "text": "推荐几个餐馆",
+        "intent": "search",
+        "entities": []
+      },
+      {
+        "text": "有什么好吃的",
+        "intent": "search",
+        "entities": []
+      },
+      {
+        "text": "我饿了",
+        "intent": "search",
+        "entities": []
+      },
+      {
+        "text": "吃什么",
+        "intent": "search",
+        "entities": []
+      },
+      {
+        "text": "有什么推荐的川菜馆",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "川菜",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "有什么推荐的东北菜馆",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "东北菜",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "有什么推荐的火锅店",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "火锅",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "有什么推荐的烧烤店",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "烧烤",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "推荐几个川菜馆",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "川菜",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "推荐几个东北菜馆",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "东北菜",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "推荐几个火锅店",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "火锅",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "推荐几个烧烤店",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "烧烤",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "推荐几个辣的餐馆",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "川菜",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "附近有什么好吃的",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "附近",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "附近有哪些餐馆",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "附近",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "推荐几个附近的餐馆",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "附近",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "UCI附近有什么好吃的",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "UCI",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Parkwest附近有什么好吃的",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Parkwest",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Irvine有什么好吃的",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Irvine",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "LA有什么好吃的",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "LA",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "附近有哪些川菜馆",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "附近",
+            "entity": "location"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "川菜",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "推荐附近的火锅店",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "附近",
+            "entity": "location"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "火锅",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "我想吃川菜",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "川菜",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "就在附近",
+        "intent": "provide_location",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "附近",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "UCI附近",
+        "intent": "provide_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "UCI",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Parkwest附近",
+        "intent": "provide_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Parkwest",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "在Irvine",
+        "intent": "provide_location",
+        "entities": [
+          {
+            "start": 1,
+            "end": 7,
+            "value": "Irvine",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "在LA",
+        "intent": "provide_location",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "LA",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "川菜",
+        "intent": "provide_flavor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "川菜",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "东北菜",
+        "intent": "provide_flavor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "东北菜",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "火锅",
+        "intent": "provide_flavor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "火锅",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "烧烤",
+        "intent": "provide_flavor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "烧烤",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "台湾菜",
+        "intent": "provide_flavor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "台湾菜",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "港式西餐",
+        "intent": "provide_flavor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "港式西餐",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "粤菜",
+        "intent": "provide_flavor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "粤菜",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "湖南菜",
+        "intent": "provide_flavor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "湖南菜",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "山西菜",
+        "intent": "provide_flavor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "山西菜",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "奶茶",
+        "intent": "provide_flavor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "奶茶",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "粥",
+        "intent": "provide_flavor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "粥",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "海鲜",
+        "intent": "provide_flavor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "海鲜",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "甜品",
+        "intent": "provide_flavor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "甜品",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "湘菜",
+        "intent": "provide_flavor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "湘菜",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "兰州拉面",
+        "intent": "provide_flavor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "兰州拉面",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "清真",
+        "intent": "provide_flavor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "清真",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "烤鱼",
+        "intent": "provide_flavor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "烤鱼",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "蒸锅",
+        "intent": "provide_flavor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "蒸锅",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "早点",
+        "intent": "provide_flavor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "早点",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "面点",
+        "intent": "provide_flavor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "面点",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "快餐",
+        "intent": "provide_flavor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "快餐",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "91776",
+        "intent": "provide_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "91776",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "91770",
+        "intent": "provide_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "91770",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "90012",
+        "intent": "provide_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "90012",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "92612",
+        "intent": "provide_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "92612",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "洛杉矶",
+        "intent": "provide_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "洛杉矶",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Rosemead",
+        "intent": "provide_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Rosemead",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "San Gabriel",
+        "intent": "provide_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "San Gabriel",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Santa Ana",
+        "intent": "provide_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Santa Ana",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "West Covina",
+        "intent": "provide_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "West Covina",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": " Los Angeles",
+        "intent": "provide_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": " Los Angeles",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Rowland Heights",
+        "intent": "provide_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Rowland Heights",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "City of Industry",
+        "intent": "provide_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "City of Industry",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "附近有哪些火锅店",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "附近",
+            "entity": "location"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "火锅",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "附近有哪些好吃的火锅店",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "附近",
+            "entity": "location"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "火锅",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "中午吃啥",
+        "intent": "search",
+        "entities": []
+      },
+      {
+        "text": "今晚吃啥",
+        "intent": "search",
+        "entities": []
+      },
+      {
+        "text": "Irvine有哪些好吃的",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Irvine",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Los Angeles好吃的烧烤店",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Los Angeles",
+            "entity": "location"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "烧烤",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "没有",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不喜欢",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "有，谢谢",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "喜欢，谢谢",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "有",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "喜欢",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "不满意",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不好",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "没有",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不喜欢",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "没",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "谢谢",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "我想吃火锅",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "火锅",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "我想吃火锅",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "火锅",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "火锅",
+        "intent": "provide_flavor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "火锅",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "有的",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "喜欢",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "有",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "北方菜",
+        "intent": "provide_flavor",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "北方菜",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "洛杉矶",
+        "intent": "provide_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "洛杉矶",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "洛杉矶有什么好吃的",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "洛杉矶",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "推荐几个洛杉矶的餐馆",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "洛杉矶",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "洛杉矶好吃的粤菜",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "洛杉矶",
+            "entity": "location"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "粤菜",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "尔湾",
+        "intent": "provide_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "尔湾",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "尔湾",
+        "intent": "provide_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "尔湾",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "尔湾有哪些川菜馆",
+        "intent": "search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "尔湾",
+            "entity": "location"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "川菜",
+            "entity": "flavor"
+          }
+        ]
+      },
+      {
+        "text": "满意",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "不满意",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "满意",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "不满意",
+        "intent": "deny",
+        "entities": []
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "rasa_core": "0.8.2",
+  "max_history": 3,
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ],
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "location",
+        "flavor"
+      ]
+    },
+    "action_search_restaurants": {
+      "slots": [
+        "results"
+      ]
+    },
+    "action_more_results": {
+      "slots": [
+        "results"
+      ]
+    }
+  },
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble"
+}

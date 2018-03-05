@@ -1,0 +1,64 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_ask_location
+- utter_ask_flavor
+- action_search_restaurants
+- utter_goodornot
+- action_more_results
+- utter_bye
+actions:
+- utter_greet
+- utter_ask_location
+- utter_ask_flavor
+- bot.ActionSearchRestaurants
+- utter_goodornot
+- bot.ActionMoreResults
+- utter_bye
+config:
+  store_entities_as_slots: true
+entities:
+- flavor
+- location
+intents:
+- greet
+- search
+- provide_location
+- provide_flavor
+- affirm
+- deny
+slots:
+  flavor:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  location:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  results:
+    initial_value: null
+    type: rasa_core.slots.ListSlot
+templates:
+  utter_ask_flavor:
+  - text: 请问您想吃什么类型的菜？
+  - text: 您想吃什么类型的菜呢？
+  - text: 您想吃什么种类的菜呢？
+  utter_ask_location:
+  - text: 请问您想在什么地方就餐？(城市/邮编)
+  - text: 您想在哪吃呢？(城市/邮编)
+  utter_bye:
+  - text: '感谢您的使用，祝您用餐愉快！
+
+      -----------------------'
+  - text: '感谢您的使用，下次再来哦~
+
+      -----------------------'
+  utter_goodornot:
+  - text: 以上推荐是否有您满意的结果？
+  - text: 以上推荐是否有您喜欢的餐馆？
+  - text: 您喜欢以上推荐的餐馆吗？
+  utter_greet:
+  - text: 哈喽！
+  - text: 您好~
+  - text: 嗨！
+  - text: 嘿！今天想吃点什么？
+topics: []
