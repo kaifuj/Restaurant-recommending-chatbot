@@ -1,0 +1,12 @@
+{
+  "name": "application",
+  "description": "chatbot web application",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.x"
+  },
+  "devDependencies": {
+    "hbs": "^4.0.1"
+  }
+}
