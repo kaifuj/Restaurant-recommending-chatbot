@@ -28,6 +28,8 @@ window.onload = function(){
                 img[iNow].className += 'imgleft';
                 span[iNow].className += 'spanleft';
             }
+
+            //reset the text
             text.value = '';
             // 内容过多时,将滚动条放置到最底端
             content.scrollTop=content.scrollHeight;
